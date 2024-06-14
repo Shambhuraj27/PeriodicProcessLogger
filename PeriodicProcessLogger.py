@@ -16,8 +16,8 @@ def is_connected():
     except urllib2.URLError as err:
         return False
 def MailSender(filename, time):
-    fromaddr = "27.sspatil@gmail.com"
-    toaddr = "shambhurajpatil27@gmail.com"
+    fromaddr = "----------@gmail.com"
+    toaddr = "----------@gmail.com"
     msg = MIMEMultipart()
     msg['From'] = fromaddr
     msg['To'] = toaddr
@@ -29,7 +29,7 @@ def MailSender(filename, time):
 
          This is auto generated mail.
          Thanks & Regards,
-         Shambhuraj Patil
+         -----------------
             """ % (toaddr, time)
 
     Subject = """
