@@ -51,7 +51,7 @@ def MailSender(filename, time):
 
     s.starttls()
 
-    s.login(fromaddr, 'zdzcizmzonoibaqu')
+    s.login(fromaddr, '-----------')
 
     text = msg.as_string()
 
